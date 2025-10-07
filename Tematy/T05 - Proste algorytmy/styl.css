@@ -1,0 +1,72 @@
+/* nowy-styl.css */
+
+body {
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    background-color: #e0e5ec;
+    margin: 0;
+    padding: 0;
+    color: #2f2f2f;
+}
+
+header {
+    background-color: #ffffff;
+    color: #2f2f2f;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 8px 8px 16px #c5c9d3, -8px -8px 16px #ffffff;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    letter-spacing: 1px;
+}
+
+.author {
+    font-style: normal;
+    font-size: 1em;
+    margin-top: 10px;
+    color: #7f8c8d;
+}
+
+main {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 4px 4px 12px #d1d9e6, -4px -4px 12px #ffffff;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    color: #2c3e50;
+    border-left: 6px solid #1abc9c;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    line-height: 1.8;
+    font-size: 1.15em;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+li::before {
+    content: "•";
+}
+
+img {
+    border: 1px solid bisque;
+}

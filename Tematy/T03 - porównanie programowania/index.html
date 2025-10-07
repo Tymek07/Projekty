@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>T03 – Porównanie paradygmatów programowania</title>
+  <link rel="stylesheet" href="styl.css" />
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Porównanie programowania obiektowego i strukturalnego</h1>
+    <p class="author">Autor: Tymoteusz Przybylski</p>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <h2>Programowanie strukturalne</h2>
+    <ul>
+      <li>Moduły (podprogramy) komunikujące się przez interfejsy</li>
+      <li>Rozszerzenie programowania proceduralnego – lepsza czytelność i jakość kodu</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Założenia programowania strukturalnego</h2>
+    <ul>
+      <li>Jeden punkt wejścia do bloku kodu</li>
+      <li>Określona kolejność wykonywania</li>
+      <li>Instrukcje warunkowe: <code>if</code>, <code>if…else</code></li>
+      <li>Pętle: <code>for</code>, <code>while</code>, <code>do…while</code></li>
+      <li>Unikanie <code>goto</code>, <code>break</code>, <code>continue</code></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Programowanie obiektowe</h2>
+    <ul>
+      <li>Reprezentacja problemu jako obiektów z polami i metodami</li>
+      <li>Bardziej naturalne dla człowieka – zgodne z rzeczywistością</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Założenia programowania obiektowego</h2>
+    <ul>
+      <li>Abstrakcja</li>
+      <li>Hermetyzacja (enkapsulacja)</li>
+      <li>Dziedziczenie</li>
+      <li>Polimorfizm</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Enkapsulacja</h2>
+    <ul>
+      <li>Dane ukryte, dostęp przez zdefiniowany interfejs</li>
+      <li>Settery/gettery zamiast bezpośredniego dostępu do pól</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Dziedziczenie</h2>
+    <ul>
+      <li>Nowe klasy wywodzące się z istniejących, odziedziczające metody i pola</li>
+    </ul>
+    <pre><code class="code-snippet">
+// Przykład w C#
+class Kwadrat : Wielokat {
+  public Kwadrat(int a) {
+    boki = new int[4];
+    boki[0] = boki[1] = boki[2] = boki[3] = a;
+  }
+  public override int Pole() {
+    return boki[0] * boki[0];
+  }
+}
+      </code></pre>
+  </section>
+
+  <section>
+    <h2>Polimorfizm</h2>
+    <ul>
+      <li>Przeciążanie/metody w różnych wariantach (np. <code>ToString()</code> dla różnych typów danych)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Różnice kluczowe</h2>
+    <ul>
+      <li>Strukturalne → funkcje/składniki układane sekwencyjnie</li>
+      <li>Obiektowe → metody przypisane do obiektów, mniejsza szansa na błąd przy wywoływaniu</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    color: #28418a;
+}
+
+header {
+    background-color: #81b8d1;
+    color: #2980b9;
+    text-align: center;
+}
+
+section {
+    background-color: #09917e;
+    color: #d6cfcf;
+    padding: 10px;
+}
+
+#wynik {
+    background-color: #019c97;
+    padding: 10px;
+    border: 1px solid #5c00ff;
+}
+input   {
+    margin-bottom: 3px;
+}
