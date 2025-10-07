@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29b43b69-981b-4a52-9040-e7c8de98b531" name="Changes" comment="07.10.2025" />
+    <list default="true" id="29b43b69-981b-4a52-9040-e7c8de98b531" name="Changes" comment="07.10.2025">
+      <change afterPath="$PROJECT_DIR$/Zadania/Zadanie30 - Dzielenie ze sprawdzeniem/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadania/Zadanie30 - Dzielenie ze sprawdzeniem/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadania/Zadanie30 - Dzielenie ze sprawdzeniem/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania/Zadanie20 - obliczanie kwadratu i sześcianu/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Zadanie20 - obliczanie kwadratu i sześcianu/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Tymek07&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tymek07/Projekty.git&quot;,
+    &quot;accountId&quot;: &quot;918d304f-968a-4044-bca5-eb8590c700cc&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -100,6 +118,8 @@
       <workItem from="1759828702087" duration="17000" />
       <workItem from="1759828759018" duration="1179000" />
       <workItem from="1759830794060" duration="14000" />
+      <workItem from="1759830867160" duration="229000" />
+      <workItem from="1759833817869" duration="2416000" />
     </task>
     <task id="LOCAL-00001" summary="07.10.2025">
       <option name="closed" value="true" />
@@ -125,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759830801527</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="07.10.2025">
+      <option name="closed" value="true" />
+      <created>1759830886753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759830886753</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
