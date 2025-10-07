@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -95,7 +98,7 @@
       <workItem from="1759226632547" duration="4732000" />
       <workItem from="1759235214831" duration="2209000" />
       <workItem from="1759828702087" duration="17000" />
-      <workItem from="1759828759018" duration="338000" />
+      <workItem from="1759828759018" duration="1179000" />
     </task>
     <task id="LOCAL-00001" summary="07.10.2025">
       <option name="closed" value="true" />
@@ -105,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759829089176</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="07.10.2025">
+      <option name="closed" value="true" />
+      <created>1759829106953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759829106953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
